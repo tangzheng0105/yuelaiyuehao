@@ -14,8 +14,14 @@ export default function Home() {
           <div>
             <img src="images/banner2.jpg" alt="广告一" />
           </div>
+          <div>
+            <img src="images/banner3.jpg" alt="广告一" />
+          </div>
+          <div>
+            <img src="images/banner4.jpg" alt="广告一" />
+          </div>
         </Carousel>
-        <div className="container">
+        <div className="container" style={{display:'none'}}>
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12">
               <div className="product_index">
@@ -80,15 +86,12 @@ export default function Home() {
                 </div>
                 <div className="about_content" data-move-y="100px">
                   <div>
-                    <img align="left" src="images/about.png" alt="公司简介" />
+                    <img align="left" style={{height:'200px'}} src="images/about.png" alt="公司简介" />
                     <p className="about_contents">
-                      湖南岳来岳好企业管理有限公司，旗下有湖南华洛建筑工程有限公司、益阳市广业建材有限公司、会同县广业建材有限公司、益阳东南混凝土有限公司、益阳鸿鑫实业有限公司、益阳市赫山区鸿鑫房地产开发有限公司，是一家集房地产开发、工程承建、建筑材料供应、施工等建筑业务全覆盖的企业。
-                    </p>
-                    <p className="about_contents">
-                      公司将以“务实、奋进的精神，以专业、优质、细致、周到“的敬业准则坚持用户至上的原则，为工程提供沥青混合料及摊铺劳务，力争所承建道路工程达标优良工程，确保合格率达到100%
+                    湖南岳来岳好企业管理有限公司，旗下有湖南华洛建筑工程有限公司、益阳市广业建材有限公司、会同县广业建材有限公司、益阳东南混凝土有限公司、益阳鸿鑫实业有限公司、益阳市赫山区鸿鑫房地产开发有限公司，是一家集房地产开发、工程承建、建筑材料供应、施工等建筑业务全覆盖的企业。
                     </p>
                   </div>
-                  <Link href='/introduction'><a className="btn btn-info" role="button">查看详细</a></Link>
+                  <Link href='/introduction'><a className="btn btn-info" style={{marginTop:'40px'}} role="button">查看详细</a></Link>
                 </div>
               </div>
             </div>
@@ -134,57 +137,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="news_box">
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12">
-                <div className="news_head" data-move-y="-50px">
-                  <h2>企业文化</h2>
-                  <p>Corporate Culture</p>
-                </div>
-                <div className="col-sm-4 col-md-4 col-mm-6 news_img"
-                  style={{ backgroundImage: 'url(images/57344e66ec33d.png)', backgroundSize: 'contain' }}>
-                </div>
-                <div className="col-sm-12 col-md-8 col-mm-12">
-                  <ul className="news_index" data-move-y="200px">
-                    <li>
-                      <span>
-                        <strong>理念</strong>
-                        {/* <i>2013-09</i> */}
-                      </span>
-                      <a title="企业理念">企业理念</a><br />
-                      <em>以人为本 求实创新 服务客户</em>
-                    </li>
-                    <li>
-                      <span>
-                        <strong>宗旨</strong>
-                        {/* <i>2013-05</i> */}
-                      </span>
-                      <a title="企业宗旨">企业宗旨</a><br />
-                      <em>为社会创造价值 为员工创造未来</em>
-                    </li>
-                    <li>
-                      <span>
-                        <strong>愿景</strong>
-                        {/* <i>2013-05</i> */}
-                      </span>
-                      <a title="企业愿景">企业愿景</a><br />
-                      <em>和谐共生 发展创新 打造优质气质</em>
-                    </li>
-                    <li>
-                      <span>
-                        <strong>精神</strong>
-                        {/* <i>2013-09</i> */}
-                      </span>
-                      <a title="企业精神">企业精神</a><br />
-                      <em>团结 诚信 高效 开拓</em>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
       </div>
     </Layout>

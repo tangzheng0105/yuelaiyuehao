@@ -9,10 +9,10 @@ export default function Top() {
                 <div className="container">
                     <div className="row">
                         <div className="col-xs-12 col-sm-8 col-md-8">
-                            <a><img src="images/logo.png" className="logo" alt="企业网站管理系统PHP版V2.0" /></a>
+                            <a><img src="images/logo.jpg" className="logo" alt="企业网站管理系统PHP版V2.0" /></a>
                         </div>
                         <div id="topsearch" className="col-xs-12 col-sm-4 col-md-4">
-                            <img src="images/slogon.png" className="logo" alt="企业网站管理系统PHP版V2.0" />
+                            <img src="images/slogon.jpg"  style={{marginTop:'38px',width:'300px'}} alt="企业网站管理系统PHP版V2.0" />
                         </div>
                     </div>
 

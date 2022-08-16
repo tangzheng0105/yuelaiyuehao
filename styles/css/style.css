@@ -219,7 +219,7 @@ ul.nav li.dropdown:hover .dropdown-menu{
 /*大屏幕*/
 @media screen and (min-width: 769px) {
        header{}
-       .logo{margin: 15px 30px 5px 30px; max-width: 280px;}
+       .logo{margin: 25px 0 15px 0; max-width: 240px;}
       .navbar{ margin-top:20px;  min-height:48px; background: url(../../public/images/nav_bg.jpg) repeat-x center center;}
       .navbar-nav > li > a {text-align: center; font-size:16px;}
       .navbar-default .navbar-nav > li > a{color: #fff;padding: 14px 30px 14px 30px;cursor: pointer;}
